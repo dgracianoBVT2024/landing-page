@@ -1,0 +1,56 @@
+body {
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+
+.header-logo {
+  font-size: 18px
+}
+
+.links {
+  /* margin: auto; */
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  margin: auto;
+  font-size: small;
+  padding: 0px;
+}
+
+.one,
+.two,
+.three {}
+
+.one {
+  width: auto;
+  height: 250px;
+  background: #1f2937;
+
+}
+
+.two {
+  width: auto;
+  height: 250px;
+  background: #ffffff5b;
+
+}
+
+.three {
+  width: auto;
+  height: 250px;
+  background: #e6e7eb;
+}
+
+.four {
+  width: auto;
+  height: 250px;
+  background: #ffffff5b;
+}
