@@ -15,14 +15,6 @@ header {
 
 }
 
-
-/* .links {} */
-
-/* .hero-content {
-  display: flex;
-  max-width: 300px;
-} */
-
 ul {
   display: flex;
   gap: 16px;
@@ -31,9 +23,16 @@ ul {
   padding: 0px;
 }
 
-.hero-content {
-  /* display: flex; */
+.hero-section {
+  display: flex;
+  justify-content: space-around;
 }
+
+.hero-content {
+  width: 450px;
+  padding-bottom: 10px;
+}
+
 
 /* main hero text */
 .hero-main {
@@ -41,10 +40,10 @@ ul {
   color: #f9faf8;
   font-weight: 900;
   max-width: 400px;
+  ga
 }
 
 .hero-subtext {
-  /* text-wrap: wrap; */
   max-width: 500px;
 }
 
@@ -52,38 +51,6 @@ ul {
 .header-links {
   font-size: 18px;
   color: #E5E7Eb;
-}
-
-
-/* add anything redundant to this */
-.one,
-.two,
-.three {}
-
-
-.one {
-  height: 250px;
-  background: #1f2937;
-
-}
-
-.two {
-  width: auto;
-  height: 250px;
-  background: #ffffff5b;
-
-}
-
-.three {
-  width: auto;
-  height: 250px;
-  background: #E5e7eb;
-}
-
-.four {
-  width: auto;
-  height: 250px;
-  background: #ffffff5b;
 }
 
 .cta-button {
@@ -94,6 +61,40 @@ ul {
 }
 
 .placeholder {
-  width: 150px;
-  heigth: 150px
+  color: white;
+  display: flex;
+  background-color: grey;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 150px;
+  padding: 15px;
+}
+
+/* add anything redundant to this */
+.one,
+.two,
+.three,
+.four {
+  height: 400px;
+}
+
+
+.one {
+  background: #1f2937;
+  /* keep above */
+
+}
+
+.two {
+  background: #ffffff5b;
+
+}
+
+.three {
+  background: #E5e7eb;
+}
+
+.four {
+  background: #ffffff5b;
 }
