@@ -7,7 +7,6 @@ header {
   display: flex;
   justify-content: space-evenly;
   padding-top: 10px;
-  align-items: baseline;
 
 }
 
@@ -15,7 +14,7 @@ footer {
   height: 100px;
 }
 
-.hero {}
+/* .hero {} */
 
 .hero,
 footer {
@@ -40,8 +39,6 @@ ul {
 .hero-section {
   display: flex;
   padding: 65px;
-  justify-content: center;
-  /* align-items: center; */
 }
 
 .hero-content {
@@ -97,7 +94,7 @@ ul {
 .info-section {
   font-size: 36px;
   color: #1f2937;
-  font-weight: 900;
+  font-weight: 700;
   display: flex;
   justify-content: center;
   padding-top: 30px;
@@ -106,15 +103,24 @@ ul {
 /* Need 4 of these in 1 div then flex it */
 .boxes {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  /* Eventually shorten the distance between boxes */
+
 }
 
 #rectangle {
   height: 150px;
   width: 150px;
-  border: solid 8px rgb(53, 124, 255);
-  margin: auto;
-  border-radius: 5%;
+  border: solid 5px rgb(53, 124, 255);
+  border-radius: 10%;
+
+}
+
+.mini-box {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  text-align: center;
 }
 
 /* add anything redundant to this */
