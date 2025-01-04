@@ -12,13 +12,19 @@ header {
 
 footer {
   height: 100px;
+  color: white;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* .hero {} */
 
 .hero,
 footer {
-  background-color: #1f2937
+  background-color: #1f2937;
+
 }
 
 .header-logo {
@@ -70,7 +76,7 @@ ul {
   color: #E5E7Eb;
 }
 
-.cta-button {
+.hero-button {
   background-color: #3882f6;
   color: white;
   width: 85px;
@@ -104,6 +110,7 @@ ul {
 .boxes {
   display: flex;
   justify-content: space-evenly;
+  padding-top: 50px;
   /* Eventually shorten the distance between boxes */
 
 }
@@ -128,18 +135,83 @@ ul {
 .two,
 .three,
 .four {
-  height: 400px;
+  height: 450px;
 }
 
 .two {
   background: #ffffff5b;
 
+
 }
 
 .three {
   background: #E5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .four {
   background: #ffffff5b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .quote-container {} */
+/* Not sure if I need this. */
+
+.quote {
+  align-self: center;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 350;
+  width: 775px;
+  color: #1f2937;
+
+}
+
+.signature {
+  font-weight: bold;
+  font-size: 25px;
+  justify-self: flex-end;
+}
+
+.cta-container {
+  width: 1100px;
+  height: 175px;
+  background-color: #3882f6;
+  color: white;
+  display: flex;
+  border-radius: 15px;
+}
+
+.cta-container,
+.notice-container {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly
+}
+
+.notice-container {
+  height: 150px;
+
+}
+
+.cta-notice {
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.cta-button {
+  width: 125px;
+  height: 45px;
+  background-color: #3882f6;
+  color: white;
+  border: solid white 3px;
+  border-radius: 15px;
+  font-weight: bold;
+
 }
