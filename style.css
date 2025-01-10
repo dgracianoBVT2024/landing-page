@@ -2,38 +2,34 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
+  padding: 0;
 }
-
 
 header {
   display: flex;
   justify-content: space-evenly;
   padding-top: 10px;
-
 }
 
 footer {
   height: 100px;
   color: white;
-  font-size: 22px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* .hero {} */
-
 .hero,
 footer {
   background-color: #1f2937;
+  flex: auto;
 
 }
 
 .header-logo {
   font-size: 24px;
   color: #F9FAF8;
-
-
 }
 
 ul {
@@ -47,6 +43,7 @@ ul {
 .hero-section {
   display: flex;
   padding: 65px;
+  justify-content: space-evenly;
 }
 
 .hero-content {
@@ -54,7 +51,6 @@ ul {
   padding-bottom: 10px;
   margin-right: 50px;
 }
-
 
 /* main hero text */
 .hero-main {
@@ -93,13 +89,12 @@ ul {
   background-color: grey;
   justify-content: center;
   align-items: center;
-  width: 400px;
-  height: 150px;
+  width: 550px;
   padding: 15px;
 }
 
 /* Information section */
-.info-section {
+.info-text {
   font-size: 36px;
   color: #1f2937;
   font-weight: 700;
@@ -108,13 +103,12 @@ ul {
   padding-top: 30px;
 }
 
-/* Need 4 of these in 1 div then flex it */
 .boxes {
   display: flex;
-  justify-content: space-evenly;
-  padding-top: 50px;
-  /* Eventually shorten the distance between boxes */
-
+  padding: 50px;
+  justify-content: center;
+  gap: 45px;
+  flex-wrap: wrap;
 }
 
 #rectangle {
@@ -128,22 +122,22 @@ ul {
 .mini-box {
   display: flex;
   flex-direction: column;
-  width: 160px;
+  max-width: 160px;
   text-align: center;
+  flex: 1;
+
 }
 
 /* add anything redundant to this */
 .hero,
-.two,
+.info-section,
 .three,
 .four {
   height: 450px;
 }
 
-.two {
+.info-text {
   background: #ffffff5b;
-
-
 }
 
 .three {
@@ -161,9 +155,6 @@ ul {
   align-items: center;
 }
 
-/* .quote-container {} */
-/* Not sure if I need this. */
-
 .quote {
   align-self: center;
   font-size: 36px;
@@ -171,7 +162,6 @@ ul {
   font-weight: 350;
   width: 775px;
   color: #1f2937;
-
 }
 
 .signature {
@@ -199,11 +189,10 @@ ul {
 
 .notice-container {
   height: 150px;
-
 }
 
 .cta-notice {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 22px;
 }
 
@@ -215,5 +204,8 @@ ul {
   border: solid white 3px;
   border-radius: 15px;
   font-weight: bold;
+}
 
+.signup-notice {
+  font-weight: 300;
 }
